@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Starbucks, bebidas, cafe" />
+    <meta
+      name="description"
+      content="La pagina de video juegos mas retro de la web. Novedades e informacion actualizada cada semana🎮🎮"
+    />
+    <meta name="author" content="Grupo 7" />
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/style-Galeria.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Mundo Gamer</title>
+  </head>
+  <body>
+    <script>
+      alert("Bienvenido a Mundo Gamer");
+    </script>
+
+    <header
+      class="header position-sticky top-0 backgroundColor"
+      style="z-index: 1000"
+    >
+      <!-- LOGO - BOTONES - SEPARADOR -->
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./Principal.html">
+                <img
+                  src="./img/logo.png"
+                  alt="Bootstrap"
+                  width="65"
+                  height="65"
+                  class="rounded-circle"
+                  
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active fs-5"
+                      aria-current="page"
+                      href="./Principal.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./Contacto.html"
+                      >Contactanos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./Galeria.html"
+                      >Galeria</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="./AboutUs.html"
+                      >Acerca de Nosotros</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Formulario.html"
+                      ><i class="bi bi-person-circle fs-2 text-dark"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- carousel -->
+    <div class="row mt-2">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide p-0"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="8000">
+            <img src="./img/carousel1.jpg" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Crash Bandicoot 4: Its About Time</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="./img/carousel2.png" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The leyend of Zelda: Breath of the Wild</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="./img/carousel3.jpg" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Donkey Kong</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- CARDS -->
+    <div class="row text-center">
+      <div
+        class="col-md-12 col-xl-8 flex-lg-row flex-xl-row flex-wrap d-flex flex-column align-items-center justify-content-around"
+      >
+        <div class="card bg-dark mt-3 p-0 responsive" style="width: 18rem">
+          <img src="./img/mario.jpg" class="card-img-top" alt="img" />
+          <div
+            class="card-body text-light d-flex flex-column align-items-center"
+          >
+            <h5 class="card-title">Super Mario Odyssey</h5>
+            <p class="card-text">
+              Reuniendo el espíritu de las plataformas clásicas, y apostando por
+              un cambio de ambientación, Super Mario Odyssey nos invitará a
+              encarnar una vez más al fontanero más famoso del ocio electrónico
+              en una aventura en la que visitaremos nuevos y diversos mundos,
+              reinos y lugares enigmáticos a bordo de nuestra aeronave.
+            </p>
+            <a
+              href="./entry1.html"
+              class="btn btn-primary d-block m-auto"
+              style="width: 12rem"
+              >Ver Mas</a
+            >
+          </div>
+        </div>
+        <div class="card bg-dark mt-3 p-0 responsive" style="width: 18rem">
+          <img src="./img/Zelda.jpg" class="card-img-top" alt="img" />
+          <div
+            class="card-body text-light d-flex flex-column align-items-center"
+          >
+            <h5 class="card-title">Zelda Breath Of The Wild</h5>
+            <p class="card-text">
+              Nintendo revoluciona una de sus sagas más queridas con un juego
+              espectacularmente divertido y ambicioso, que vuelve a los orígenes
+              para ofrecernos una aventura en su significado más puro. Te
+              contamos todos los secretos de la épica aventura de mundo abierto
+              de Link.
+            </p>
+            <a
+              href="./Entry2.html"
+              class="btn btn-primary d-block m-auto"
+              style="width: 12rem"
+              >Ver Mas</a
+            >
+          </div>
+        </div>
+        <div class="card bg-dark mt-3 p-0 responsive" style="width: 18rem">
+          <img src="./img/galaga.jpg" class="card-img-top" alt="img" />
+          <div class="card-body text-light">
+            <h5 class="card-title">Galaga</h5>
+            <p class="card-text">
+              Galaga es un videojuego matamarcianos creado en 1981 por la
+              empresa Namco. Fue diseñado como el sucesor del Galaxian. Objetivo
+              del juego El jugador controla una nave que debe enfrentarse contra
+              un enjambre de alienígenas con forma de insecto que le atacarán
+              disparando bombas y actuando como kamikazes.
+            </p>
+            <a
+              href="./entry3.html"
+              class="btn btn-primary d-block m-auto"
+              style="width: 12rem"
+              >Ver Mas</a
+            >
+          </div>
+        </div>
+        <div class="card bg-dark mt-3 p-0 responsive" style="width: 18rem">
+          <img src="./img/DonkeyKong.png" class="card-img-top" alt="img" />
+          <div class="card-body text-light">
+            <h5 class="card-title">Donkey Kong</h5>
+            <p class="card-text">
+              Todo es pacífico en la isla Kong, en el medio de un paraíso
+              tropical. Pero a lo lejos se ve una enorme nave acuática venir.
+              Dentro de ella estaban King K. Rool quien regresa más fuerte que
+              nunca y la armada Kremling. Su propósito: robar las bananas
+              doradas de la isla y volverla un caos.
+            </p>
+            <a
+              href="./entry4.html"
+              class="btn btn-primary d-block m-auto"
+              style="width: 12rem"
+              >Ver Mas</a
+            >
+          </div>
+        </div>
+        <!-- PAGINACION -->
+        <div class="row">
+          <div class="col-12">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination d-flex justify-content-center mt-3">
+                <li class="page-item">
+                  <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- BUSCADOR -->
+      <div class="col-sm-8 col-lg-6 col-xl-4 col-xxl-4 mt-4 m-auto">
+        <div class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+          <button class="btn btn-dark" type="submit">Buscar</button>
+        </div>
+        <button
+          class="btn btn-info mt-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          CATEGORIAS <i class="bi bi-caret-down-fill"></i>
+        </button>
+        <div class="collapse mt-2 m-auto" id="collapseExample">
+          <div class="card card-body bg-dark text-light">
+            <ul class="">
+              <li class="list-group-item text-info fs-4">
+                <i class="bi bi-controller me-2"></i>Juegos Retros
+              </li>
+              <li class="list-group-item text-info fs-4">
+                <i class="bi bi-controller me-2"></i>Juegos Actuales
+              </li>
+              <li class="list-group-item text-info fs-4">
+                <i class="bi bi-film me-2"></i>Live Actions
+              </li>
+              <li class="list-group-item text-info fs-4">
+                <i class="bi bi-controller me-2"></i>FPS
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Publicidad -->
+        <a href="./Error404.html" target="_blank"
+          ><img
+            src="./img/sn.jpg"
+            class="img-thumbnail d-flex flex-column mt-2"
+            alt="Publicidad"
+        /></a>
+        <a href="./Error404.html"
+          ><img
+            src="./img/sn2l.jpg"
+            class="img-thumbnail d-flex flex-column mt-2"
+            alt="Publicidad"
+        /></a>
+      </div>
+    </div>
+
+    <footer class="footer bg-dark text-light mt-5 p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center p-2 mb-2">
+            <a class="navbar-brand" href="./Principal.html">
+              <img
+                src="./img/logo.png"
+                alt="Bootstrap"
+                width="60"
+                height="60"
+                class="rounded-circle"
+              />
+            </a>
+          </div>
+          <div class="col-12">
+            <ul
+              class="list-unstyled d-flex flex-row justify-content-between p-2"
+            >
+              <li>
+                <a href="./Error404.html" target="_blank"
+                  ><i class="bi bi-facebook fs-3 text-primary"></i
+                ></a>
+              </li>
+              <li>
+                <a href="./Error404.html" target="_blank"
+                  ><i class="bi bi-twitter fs-3 text-info"></i
+                ></a>
+              </li>
+              <li>
+                <a href="./Error404.html"
+                  ><i class="bi bi-instagram fs-3 text-danger"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <ul class="list-unstyled d-flex flex-column align-items-center">
+              <li>(123) 456-7890</li>
+              <li>MundoGamer@gmail.com</li>
+              <li>Balcarce, Provincia de Buenos Aires</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

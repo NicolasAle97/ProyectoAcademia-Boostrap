@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.backgroundColor{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/  
+  }
+  
+
+.body{
+    background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    font-size: 2.50rem;
+}
+.img{
+    width: 100%;
+    height: 150px;
+}
+.img-1{
+    height: 200px;
+    width: 100%;
+}
+.contenedor__titulo{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+.texto{
+    margin: 20px;
+    text-align: justify;
+}
+.Deja-su-comentario{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    padding: 30px 30px;
+    
+
+}
+.Deja-su-comentario__titulo{
+    text-align: center;
+    color: white;
+}
+.Deja-su-comentario__label{
+    color: white;
+}
+.Deja-su-comentario__label-1{
+    color: white;
+}
+.Deja-su-comentario__form{
+    border-radius: 40%;
+}
+.Deja-su-comentario__imput-1{
+    border-radius: 5px;
+    width: 100%;
+}
+.Deja-su-comentario__input{
+    border-radius: 5px;
+    width: 100%;
+}
+.btn-lg{
+    margin: 10px;
+    align-items: center;
+}
+.comentarios{
+    padding: 20px;
+}
+.contenedor__comentarios{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+.comentarios__usuarios{
+    width: 50px;
+    height: 50px;
+}
+.comentarios__img{
+    border-radius: 50%;
+    border: solid transparent;
+    width: 50px;
+    height: 50px;
+}
+.comentarios__texto{
+    padding-left: 3px;
+}
+
+@media (min-width: 768px) {
+    .contenedor__img{
+        padding: 2px 2px;
+        display: flex;
+        justify-content: center;
+    }
+    .img, .img-1{
+        margin: 5px 5px;
+        width: 500px;
+        height: 280px;
+    }
+    .Deja-su-comentario{
+        display: flex;
+        width: 96%;
+    }
+    .Deja-su-comentario__form{
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Deja-su-comentario__titulo{
+        margin-top: 10px;
+        font-size: 2.10rem;
+        text-align: center;
+    }
+    .Deja-su-comentario__label-titulo{
+        display: none;
+    }
+    .Deja-su-comentario__imput-1{
+        width: 450px;
+        height: 60px;
+    }
+    .Deja-su-comentario__input-2-contenedor{
+        margin-bottom: 10px;    
+        width: 100%;    
+    }
+    .Deja-su-comentario__input{
+        height: 30px;
+    }
+    .Deja-su-comentario__label{
+        margin-bottom: 15px;
+        display: flex;
+    }
+    .texto{
+        text-align: justify;
+        margin: 20px 40px 15px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .titulo{
+        font-size: 3.4rem;
+    }
+    .contenedor__titulo{
+        font-size: 2.90rem;
+        margin: 30px 0 30px 0;
+    }
+    .texto{
+        font-size: 1.3rem;
+        text-align: justify;
+        margin: 0 60px 15px 60px;
+    }
+    .img{
+        width: 800px;
+        height: 400px;
+    }
+    .img-1{
+        width: 750px;
+        height: 400px;
+    }
+    .Deja-su-comentario{
+        width: 60%;
+        margin-left: 198px;
+    }
+    .Deja-su-comentario__label-titulo{
+        font-size: 2.9rem;
+    }
+}
+@media (min-width: 1440px) {
+    .contenedor__titulo{
+        font-size: 3.0rem;
+    }
+    .texto{
+        margin: 20px 90px 50px 90px;
+    }
+    .d-block{
+        height: 600px;
+    }
+    .Deja-su-comentario{
+        margin-left: 349px;
+        width: 800px;
+    }
+    .Deja-su-comentario__titulo{
+        font-size: 3.0rem;
+    }
+    .Deja-su-comentario__label{
+        display: flex;
+    }
+    .comentarios{
+        margin: 30px 200px 50px 200px
+    }
+    .comentarios__img{
+        width: 80px;
+        height: 80px;
+    }
+    .comentarios__texto{
+        margin: 10px 0px 8px 39px;
+        font-size: 1.20rem;
+    }
+}

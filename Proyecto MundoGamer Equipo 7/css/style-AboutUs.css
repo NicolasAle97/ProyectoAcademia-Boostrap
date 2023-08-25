@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.h1_title {
+  text-align: center;
+  font-family: "Bungee", cursive;
+  text-decoration-line: initial;
+  color: rgb(121, 63, 160);
+  width: auto;
+  margin: 0;
+  padding: 0;
+} 
+
+.fontP2{
+font-family: "Press Start 2P", cursive;
+}
+
+.backgroundColor{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+}
+
+input {
+  display: block;
+  margin: 5px;
+}
+
+input:invalid {
+}
+
+.separator {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 15%;
+  background-color: white;
+}
+
+.bg_violet {
+  /* background: linear-gradient(to right, blue, pink); */
+  background-color: rgb(121, 63, 160);
+}
+
+
+
+.img_avatar {
+  border-radius: 50%;
+  border: rgb(121, 63, 160);
+  border-width: 5px;
+}
+
+
+
+.card {
+  background: #07182E;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card h2 {
+  z-index: 1;
+  color: #fff;
+  font-size: 1em;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(119, 0, 255), rgb(238, 48, 255));
+  height: 170%;
+  
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background-color: #07182E;
+  inset: 5px;
+  border-radius: 15px;
+} 
+
